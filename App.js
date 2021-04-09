@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import CourseList from "./components/CourseList";
 
@@ -28,9 +28,25 @@ const schedule = {
   ],
 };
 
-const Banner = ({ title }) => <Text style={styles.bannerStyle}>{title}</Text>;
+const Banner = ({ title }) => (
+  <Text style={styles.bannerStyle}>{title || "loading..."}</Text>
+);
 
 const App = () => {
+  const url = "https://courses.cs.northwestern.edu/394/data/cs-courses.php";
+
+  useEffect(() => {
+    const fetchSchedule = async () => {
+      const response = await fetch(url);
+      if (!response.ok) throw response;
+      const json = await response.json();
+      setSchedule(json);
+    };
+    fetchSchedule();
+  }, []);
+
+  const [schedule, setSchedule] = useState({ title: "", courses: [] });
+
   return (
     <SafeAreaView style={styles.container}>
       <Banner title={schedule.title} />
