@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { ScrollView, StyleSheet, Text, View } from "react-native";
+import { ScrollView, StyleSheet, Text, View, SafeAreaView } from "react-native";
 import CourseList from "./components/CourseList";
 
 const schedule = {
-  title: "CS Courses for 2018-2019",
+  title: "CS Courses for 2020-2021",
   courses: [
     {
       id: "F101",
