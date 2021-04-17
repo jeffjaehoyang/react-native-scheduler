@@ -11,14 +11,15 @@ const Field = ({ label, value }) => {
 };
 
 const CourseDetailScreen = ({ route }) => {
-  const course = route.params.course;
+  console.log("route: ", route);
+  const course = route?.params?.course;
 
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView>
-        <Field label="ID" value={course.id} />
-        <Field label="Meeting times" value={course.meets} />
-        <Field label="Title" value={course.title} />
+        <Field label="ID" value={course?.id} />
+        <Field label="Meeting times" value={course?.meets} />
+        <Field label="Title" value={course?.title} />
       </ScrollView>
     </SafeAreaView>
   );

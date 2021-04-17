@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { ScrollView, StyleSheet, Text, View, SafeAreaView } from "react-native";
-import CourseList from "./components/CourseList";
+import CourseList from "../../components/CourseList";
+import UserContext from "../../context/UserContext";
+import CourseEditScreen from "../CourseEditScreen";
 
 const Banner = ({ title }) => (
   <Text style={styles.bannerStyle}>{title || "loading..."}</Text>
@@ -8,9 +10,13 @@ const Banner = ({ title }) => (
 
 const ScheduleScreen = ({ navigation }) => {
   const url = "https://courses.cs.northwestern.edu/394/data/cs-courses.php";
+  const user = useContext(UserContext);
+  const canEdit = user && user.role === "admin";
 
   const view = (course) => {
-    navigation.navigate("CourseDetailScreen", { course });
+    navigation.navigate(canEdit ? "CourseEditScreen" : "CourseDetailScreen", {
+      course,
+    });
   };
 
   useEffect(() => {
