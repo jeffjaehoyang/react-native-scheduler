@@ -1,6 +1,9 @@
 {
+  "database": {
+    "rules": "database.rules.json"
+  },
   "hosting": {
-    "public": "build",
+    "public": "web-build",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
@@ -8,8 +11,5 @@
         "destination": "/index.html"
       }
     ]
-  },
-  "database": {
-    "rules": "database.rules.json"
   }
 }

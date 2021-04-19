@@ -1,0 +1,460 @@
+{
+  "title": "CS Courses for 2018-2019",
+  "courses": {
+    "F101": {
+      "id": "F101",
+      "meets": "MWF 11:00-11:50",
+      "title": "Computer Science: Concepts, Philosophy, and Connections"
+    },
+    "F110": {
+      "id": "F110",
+      "meets": "MWF 10:00-10:50",
+      "title": "Intro Programming for non-majors"
+    },
+    "F111": {
+      "id": "F111",
+      "meets": "MWF 13:00-13:50",
+      "title": "Fundamentals of Computer Programming I"
+    },
+    "F211": {
+      "id": "F211",
+      "meets": "MWF 12:30-13:50",
+      "title": "Fundamentals of Computer Programming II"
+    },
+    "F212": {
+      "id": "F212",
+      "meets": "MWF 15:00-15:50",
+      "title": "Discrete math"
+    },
+    "F213-1": {
+      "id": "F213-1",
+      "meets": "TuTh 15:30-16:50",
+      "title": "Intro to systems"
+    },
+    "F213-2": {
+      "id": "F213-2",
+      "meets": "TuTh 14:00-15:20",
+      "title": "Intro to systems"
+    },
+    "F214": {
+      "id": "F214",
+      "meets": "TuTh 9:30-10:50",
+      "title": "Data structures"
+    },
+    "F217": {
+      "id": "F217",
+      "meets": "TuTh 12:30-13:50",
+      "title": "Data management and information processing"
+    },
+    "F295": {
+      "id": "F295",
+      "meets": "TuTh 11:00-13:50",
+      "title": "IPD"
+    },
+    "F321": {
+      "id": "F321",
+      "meets": "TuTh 11:00-12:20",
+      "title": "Programming languages"
+    },
+    "F325": {
+      "id": "F325",
+      "meets": "MWF 11:00-11:50",
+      "title": "AI Programming"
+    },
+    "F330": {
+      "id": "F330",
+      "meets": "MWF 13:00-13:50",
+      "title": "HCI"
+    },
+    "F336": {
+      "id": "F336",
+      "meets": "TuTh 15:30-16:50",
+      "title": "Algorithms"
+    },
+    "F338": {
+      "id": "F338",
+      "meets": "M 6:00-9:00",
+      "title": "Practicum"
+    },
+    "F339": {
+      "id": "F339",
+      "meets": "TuTh 15:30-16:50",
+      "title": "Databases"
+    },
+    "F340": {
+      "id": "F340",
+      "meets": "MWF 16:00-16:50",
+      "title": "Networking"
+    },
+    "F343": {
+      "id": "F343",
+      "meets": "MWF 13:00-13:50",
+      "title": "Operating Systems"
+    },
+    "F348": {
+      "id": "F348",
+      "meets": "MWF 16:00-16:50",
+      "title": "AI"
+    },
+    "F349": {
+      "id": "F349",
+      "meets": "MWF 16:00-16:50",
+      "title": "ML"
+    },
+    "F354": {
+      "id": "F354",
+      "meets": "TuTh 9:30-10:50",
+      "title": "Network Penetration and Security"
+    },
+    "F376": {
+      "id": "F376",
+      "meets": "MWF 15:00-15:50",
+      "title": "Game Design and Development"
+    },
+    "F393": {
+      "id": "F393",
+      "meets": "TuTh 14:00-15:20",
+      "title": "Software Construction"
+    },
+    "F396-1": {
+      "id": "F396-1",
+      "meets": "TuTh 14:00-15:20",
+      "title": "Swarms and Multi-Robot Systems"
+    },
+    "F396-2": {
+      "id": "F396-2",
+      "meets": "TuTh 9:30-10:50",
+      "title": "Advanced topics in compilers"
+    },
+    "F496-1": {
+      "id": "F496-1",
+      "meets": "MWF 10:00-10:50",
+      "title": "Modern cryptography"
+    },
+    "F496-2": {
+      "id": "F496-2",
+      "meets": "TuTh 11:00-12:20",
+      "title": "Approximation Algorithms"
+    },
+    "S110": {
+      "id": "S110",
+      "meets": "MWF 11:00-11:50",
+      "title": "Intro Programming for non-majors"
+    },
+    "S111": {
+      "id": "S111",
+      "meets": "TuTh 14:00-15:20",
+      "title": "Fundamentals of Computer Programming I"
+    },
+    "S130": {
+      "id": "S130",
+      "meets": "MW 16:00-16:50",
+      "title": "Tools and Technologies of the Web"
+    },
+    "S211": {
+      "id": "S211",
+      "meets": "MWF 13:00-13:50",
+      "title": "Fundamentals of Computer Programming II"
+    },
+    "S212": {
+      "id": "S212",
+      "meets": "MWF 15:00-15:50",
+      "title": "Discrete math"
+    },
+    "S213": {
+      "id": "S213",
+      "meets": "TuTh 14:00-15:20",
+      "title": "Intro to systems"
+    },
+    "S214": {
+      "id": "S214",
+      "meets": "MWF 13:00-13:50",
+      "title": "Data structures"
+    },
+    "S217": {
+      "id": "S217",
+      "meets": "TuTh 14:00-15:20",
+      "title": "Data management and information processing"
+    },
+    "S295": {
+      "id": "S295",
+      "meets": "MWF 13:00-13:50",
+      "title": "Fundamentals of Programming 1.5"
+    },
+    "S313": {
+      "id": "S313",
+      "meets": "TuTh 15:30-16:50",
+      "title": "Tangible Interaction Design and Learning"
+    },
+    "S314": {
+      "id": "S314",
+      "meets": "TuTh 9:30-10:50",
+      "title": "Tech & Human Interaction"
+    },
+    "S321": {
+      "id": "S321",
+      "meets": "TuTh 11:00-12:20",
+      "title": "Programming languages"
+    },
+    "S323": {
+      "id": "S323",
+      "meets": "TuTh 12:30-13:50",
+      "title": "Code Analysis and Transformation"
+    },
+    "S330": {
+      "id": "S330",
+      "meets": "MWF 11:00-11:50",
+      "title": "HCI"
+    },
+    "S336": {
+      "id": "S336",
+      "meets": "TuTh 9:30-10:50",
+      "title": "Algorithms"
+    },
+    "S338": {
+      "id": "S338",
+      "meets": "M 6:00-9:00",
+      "title": "Practicum"
+    },
+    "S339": {
+      "id": "S339",
+      "meets": "TuTh 15:30-16:50",
+      "title": "Databases"
+    },
+    "S345": {
+      "id": "S345",
+      "meets": "TuTh 9:00-10:20",
+      "title": "Distributed Systems"
+    },
+    "S348": {
+      "id": "S348",
+      "meets": "TuTh 9:00-10:20",
+      "title": "AI"
+    },
+    "S349": {
+      "id": "S349",
+      "meets": "MWF 13:00-13:50",
+      "title": "ML"
+    },
+    "S351-2": {
+      "id": "S351-2",
+      "meets": "TuTh 9:30-10:50",
+      "title": "Intermediate CG"
+    },
+    "S394": {
+      "id": "S394",
+      "meets": "TuTh 11:00-12:20",
+      "title": "Software Project Management and Development"
+    },
+    "S396-1": {
+      "id": "S396-1",
+      "meets": "TuTh 12:30-13:50",
+      "title": "Operational Semantics"
+    },
+    "S396-2": {
+      "id": "S396-2",
+      "meets": "TuTh 12:30-13:50",
+      "title": "Systems Programming in Rust"
+    },
+    "S396-3": {
+      "id": "S396-3",
+      "meets": "TuTh 11:00-12:20",
+      "title": "Affective Computing Seminar"
+    },
+    "S396-4": {
+      "id": "S396-4",
+      "meets": "TuTh 11:00-12:20",
+      "title": "Proving Properties of Programs"
+    },
+    "S396-5": {
+      "id": "S396-5",
+      "meets": "TuTh 3:30-4:50",
+      "title": "Topics in Software Engineering"
+    },
+    "S397": {
+      "id": "S397",
+      "meets": "MWF 16:00-19:00",
+      "title": "Comp. Photography Seminar"
+    },
+    "S446": {
+      "id": "S446",
+      "meets": "TuTh 9:30-10:50",
+      "title": "Kernel and Other Low-level Software Development"
+    },
+    "S450": {
+      "id": "S450",
+      "meets": "TuTh 15:30-16:50",
+      "title": "Internet Security"
+    },
+    "S473-2": {
+      "id": "S473-2",
+      "meets": "Tu 14:00-17:10",
+      "title": "NUVention Web+Media"
+    },
+    "S496-1": {
+      "id": "S496-1",
+      "meets": "MWF 16:00-16:50",
+      "title": "Special Topics in Game AI"
+    },
+    "S496-2": {
+      "id": "S496-2",
+      "meets": "TuTh 9:30-10:50",
+      "title": "Mechanism Design"
+    },
+    "W110": {
+      "id": "W110",
+      "meets": "TuTh 16:00-17:20",
+      "title": "Intro Programming for non-majors"
+    },
+    "W111": {
+      "id": "W111",
+      "meets": "MWF 11:00-11:50",
+      "title": "Fundamentals of Computer Programming I"
+    },
+    "W211": {
+      "id": "W211",
+      "meets": "TuTh 14:00-15:20",
+      "title": "Fundamentals of Computer Programming II"
+    },
+    "W212": {
+      "id": "W212",
+      "meets": "MWF 16:00-16:50",
+      "title": "Discrete math"
+    },
+    "W213": {
+      "id": "W213",
+      "meets": "TuTh 12:30-13:50",
+      "title": "Intro to systems"
+    },
+    "W214": {
+      "id": "W214",
+      "meets": "TuTh 16:00-17:20",
+      "title": "Data structures"
+    },
+    "W230": {
+      "id": "W230",
+      "meets": "TuTh 12:30-13:50",
+      "title": "Programming for engineers"
+    },
+    "W321": {
+      "id": "W321",
+      "meets": "TuTh 11:00-12:20",
+      "title": "Programming languages"
+    },
+    "W322": {
+      "id": "W322",
+      "meets": "MWF 11:00-11:50",
+      "title": "Compilers"
+    },
+    "W330": {
+      "id": "W330",
+      "meets": "MWF 13:00-13:50",
+      "title": "HCI"
+    },
+    "W331": {
+      "id": "W331",
+      "meets": "TuTh 14:00-15:20",
+      "title": "Intro. Computation Phototography"
+    },
+    "W336": {
+      "id": "W336",
+      "meets": "TuTh 11:00-12:20",
+      "title": "Algorithms"
+    },
+    "W337": {
+      "id": "W337",
+      "meets": "MWF 11:00-11:50",
+      "title": "Semantic Information Processing"
+    },
+    "W339": {
+      "id": "W339",
+      "meets": "MWF 16:00-16:50",
+      "title": "Databases"
+    },
+    "W340": {
+      "id": "W340",
+      "meets": "MWF 13:00-13:50",
+      "title": "Networking"
+    },
+    "W343": {
+      "id": "W343",
+      "meets": "TuTh 11:00-11:50",
+      "title": "Operating Systems"
+    },
+    "W348": {
+      "id": "W348",
+      "meets": "MWF 15:00-15:50",
+      "title": "AI"
+    },
+    "W349": {
+      "id": "W349",
+      "meets": "MWF 13:00-13:50",
+      "title": "ML"
+    },
+    "W351-1": {
+      "id": "W351-1",
+      "meets": "MWF 10:00-10:50",
+      "title": "Intro graphics"
+    },
+    "W371": {
+      "id": "W371",
+      "meets": "TuTh 14:00-15:20",
+      "title": "Knowledge Representation and Reasoning"
+    },
+    "W394": {
+      "id": "W394",
+      "meets": "TuTh 11:00-12:20",
+      "title": "Software Project Management and Development"
+    },
+    "W396-1": {
+      "id": "W396-1",
+      "meets": "MWF 15:00-15:50",
+      "title": "Introduction to cryptography"
+    },
+    "W396-2": {
+      "id": "W396-2",
+      "meets": "Th 14:00-17:00",
+      "title": "Quadrotor design and control"
+    },
+    "W396-3": {
+      "id": "W396-3",
+      "meets": "TuTh 15:30-16:50",
+      "title": "Data Science Seminar"
+    },
+    "W396-4": {
+      "id": "W396-4",
+      "meets": "TuTh 12:30-13:50",
+      "title": "Programming Language Seminar"
+    },
+    "W397-1": {
+      "id": "W397-1",
+      "meets": "MW 18:00-19:30",
+      "title": "Game Design Studio"
+    },
+    "W397-2": {
+      "id": "W397-2",
+      "meets": "MW 10:00-11:20",
+      "title": "Digital Forensics"
+    },
+    "W397-3": {
+      "id": "W397-3",
+      "meets": "MW 10:00-13:00",
+      "title": "Internet-Scale Experimentation"
+    },
+    "W397-4": {
+      "id": "W397-4",
+      "meets": "TuTh 5:00-6:20",
+      "title": "Wireless and Mobile Health"
+    },
+    "W473-1": {
+      "id": "W473-1",
+      "meets": "Tu 14:00-17:00",
+      "title": "NUVention Web+Media"
+    },
+    "W496": {
+      "id": "W496",
+      "meets": "TuTh 15:30-16:50",
+      "title": "Graduate Algorithms"
+    }
+  }
+}
