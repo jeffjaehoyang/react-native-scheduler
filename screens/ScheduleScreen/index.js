@@ -4,8 +4,6 @@ import CourseList from "../../components/CourseList";
 import UserContext from "../../context/UserContext";
 import { firebase } from "../../firebase";
 
-const db = firebase.database().ref();
-
 const Banner = ({ title }) => (
   <Text style={styles.bannerStyle}>{title || "loading..."}</Text>
 );
@@ -16,7 +14,6 @@ const fixCourses = (json) => ({
 });
 
 const ScheduleScreen = ({ navigation }) => {
-  const url = "https://courses.cs.northwestern.edu/394/data/cs-courses.php";
   const user = useContext(UserContext);
   const canEdit = user && user.role === "admin";
 
