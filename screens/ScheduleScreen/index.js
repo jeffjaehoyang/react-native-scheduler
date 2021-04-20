@@ -30,6 +30,7 @@ const ScheduleScreen = ({ navigation }) => {
     db.on(
       "value",
       (snap) => {
+        console.log("data fetched: ", snap.val());
         if (snap.val()) setSchedule(fixCourses(snap.val()));
       },
       (error) => console.log(error)
