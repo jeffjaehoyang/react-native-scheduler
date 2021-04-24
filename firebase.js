@@ -1,5 +1,14 @@
 import firebase from "firebase/app";
 import "firebase/database";
+import "firebase/auth";
+
+export const loginWithEmail = (email, password) => {
+  return firebase.auth().signInWithEmailAndPassword(email, password);
+};
+
+export const registerWithEmail = (email, password) => {
+  return firebase.auth().createUserWithEmailAndPassword(email, password);
+};
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
